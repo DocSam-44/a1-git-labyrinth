@@ -22,16 +22,35 @@
 <!-- * this is a heading tag -->
 
 <h3>Table of contents</h3>
-<h3 style="color:blue;">Resources</h3>
-<h3 style="color:rgb(29, 186, 53);">financial</h3>
+<!-- this creates a nested hierarchy for our table of centents -->
+<details open>
+    <!-- this is the label for this level in the hierarchy -->
+    <summary>Resources</summary>
+
+    <!-- make a list for our TOC (table of contents) -->
+    <ul>
+        <li>
+            <h3 style="color:blue;">Financial</h3>
+                <li>financial</li>
+                <li><a href="#SAS">student accessability services</a></li>
+                <li>career</li>
+                <li>prototyping/crafts</li>
+                <li>academic help/tutoring</li>
+                <li>academic advising</li>
+                <li>navigating MyBrockU</li>
+        </li>
+    </ul>
+    http://127.0.0.1:5500/index.html#SAS
+
+</details>
+
+
+
+
+
+
 <ul>
-    <li>financial</li>
-    <li>student accessability services</li>
-    <li>career</li>
-    <li>prototyping/crafts</li>
-    <li>academic help/tutoring</li>
-    <li>academic advising</li>
-    <li>navigating MyBrockU</li>
+
 </ul>
 <h3 style="color:rgb(238, 0, 255);">Extracurriculars</h3>
 <ul>
@@ -46,6 +65,19 @@
     <li>builing name codes</li>
     <li>study locations</li>
     <li>map</li> 
+
+<img src="brock_map.jpg" alt="Italian Trulli" style="width:800px;height:500px;">
+    <details open>
+       <summary> this is details level1</summary>
+       <ul>
+        <li>STH</li>
+        <li>WH</li>
+       </ul>
+    </details>
+
+<p style="background-image: url('brock_map.jpg');">Brock map</p>
+
+<h3 id="SAS">Student Accessibility Services</h3>
 </ul>
    
 <h3 style="color:blue;">living options/housing</h3>
